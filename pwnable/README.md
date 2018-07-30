@@ -3,7 +3,7 @@
 |Id| Name | Description | Binary | Libc | Setup |
 |--|------|-------------|--------|------|-------|
 | 1 |Dead_Note_Lv1|Short shellcode| [binary](Dead_Note/lv1/Dead_Note_Lv1)| [libc-2.23.so](libc/libc-2.23.so) | None |
-| 2 |Dead_Note_Lv2|Heap| [binary](Dead_Note/lv2/Dead_Note_Lv2)| [libc-2.23.so](libc/libc-2.23.so) | None |
+| 2 |Dead_Note_Lv2|heap| [binary](Dead_Note/lv2/Dead_Note_Lv2)| [libc-2.23.so](libc/libc-2.23.so) | None |
 | 3 |Dead_Note_Lv3|Short ascii shellcode| [binary](Dead_Note/lv3/Dead_Note_Lv3)| [libc-2.23.so](libc/libc-2.23.so) | None |
 | 4 |arm-exploit|arm stack overflow| [binary](arm-exploit/arm-exploit)| [libc-2.23.so](libc/libc-2.23.so) | None |
 | 5 |babyheap|heap| [binary](babyheap/babyheap)| [libc-2.23.so](libc/libc-2.23.so) | None |
@@ -13,4 +13,4 @@
 | 9 |memo_heap|heap| [binary](memo_heap/memo_heap)| [libc-2.23.so](libc/libc-2.23.so) | None |
 | 10 |mini-game|format string| [binary](mini-game/mini-game)| [libc-2.23.so](libc/libc-2.23.so) | None |
 | 11 |nobaby|heap| [binary](nobaby/nobaby)| [libc-2.23.so](libc/libc-2.23.so) | None |
-| 12 |unexploitable|tack| [binary](unexploitable/unexploitable)| [libc-2.23.so](libc/libc-2.23.so) | [unexploitable](unexploitable/src) |
+| 12 |unexploitable|stack| [binary](unexploitable/unexploitable)| [libc-2.23.so](libc/libc-2.23.so) | [unexploitable](unexploitable/src) |
